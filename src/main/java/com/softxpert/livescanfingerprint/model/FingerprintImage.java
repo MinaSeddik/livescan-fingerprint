@@ -16,6 +16,6 @@ public class FingerprintImage {
     private int position;
 
     @NotNull(message = "{applicant.fingerprints.wsqImage.notNull}")
-    @Pattern(regexp = BASE64_ENCODED_IMAGE_REGEX, message = "{applicant.fingerprints.wsqImage.pattern}")
+//    @Pattern(regexp = BASE64_ENCODED_IMAGE_REGEX, message = "{applicant.fingerprints.wsqImage.pattern}")
     private String wsqImage;
 }

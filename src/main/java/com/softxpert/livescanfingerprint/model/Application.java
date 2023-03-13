@@ -87,7 +87,7 @@ public class Application {
     private List<@Valid FingerprintImage> fingerprints;
 
     @NotNull(message = "{applicant.signatureImage.notNull}")
-    @Pattern(regexp = BASE64_ENCODED_IMAGE_REGEX, message = "{applicant.signatureImage.pattern}")
+//    @Pattern(regexp = BASE64_ENCODED_IMAGE_REGEX, message = "{applicant.signatureImage.pattern}")
     private String signatureImage;
 
 

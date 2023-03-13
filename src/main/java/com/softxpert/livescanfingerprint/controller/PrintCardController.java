@@ -17,13 +17,12 @@ import javax.validation.Valid;
 @RequestMapping("/v1")
 @Slf4j
 public class PrintCardController {
-
     @PostMapping("/create-fd-258")
     public HttpEntity<byte[]> createFd258InkCard(@RequestBody @Valid Application application,
                                                  HttpServletResponse response) {
 
 
-        System.out.println("Inside the controller with data: " + application);
+//        System.out.println("Inside the controller with data: " + application);
 
 
         String fileName = "justdummyfornow";
